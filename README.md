@@ -1,2 +1,2 @@
-# vatsim-status
-python api that makes interacting with the VATSIM data less painful and more pragmatic.
+# vatstat
+ python api that makes interacting with the VATSIM data wazzup less painful and more pragmatic. 
