@@ -31,7 +31,7 @@ def get_status_servers():
     possible_servers = set()
 
     for line in iter(data.splitlines()):
-        if line.startswith("url0="):
-            possible_servers.add(line.split("=")[1])
+        if line.startswith('url0='):
+            possible_servers.add(line.split('=')[1])
 
     return possible_servers
