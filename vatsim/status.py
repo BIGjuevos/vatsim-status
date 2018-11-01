@@ -1,7 +1,7 @@
 import http.client
 import random
 
-VATSIM_STATUS_HOST = "status,vatsim,net"
+VATSIM_STATUS_HOST = "status.vatsim.net"
 
 
 def choose_server():
