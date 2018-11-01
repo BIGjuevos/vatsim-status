@@ -1,1 +1,1 @@
-name = "vatsim"
+name = "vatstat"
