@@ -5,7 +5,7 @@ VATSIM_STATUS_HOST = "status.vatsim.net"
 
 
 def choose_server():
-    return random.choice(get_status_servers())
+    return random.choice( list(get_status_servers()) )
 
 
 def get_status_servers():
@@ -32,6 +32,6 @@ def get_status_servers():
 
     for line in iter(data.splitlines()):
         if line.startswith(b'url0='):
-            possible_servers.add(line.split(b'=')[1])
+            possible_servers.add( str(line.split(b'=')[1]) )
 
     return possible_servers

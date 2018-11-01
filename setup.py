@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="vatstat",
-    version="0.0.5",
+    version="0.0.6",
     author="Ryan Null",
     author_email="ryan.null@gmail.com",
     description="python api that makes interacting with the VATSIM data less painful and more pragmatic.",
